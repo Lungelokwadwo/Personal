@@ -7,10 +7,26 @@
 </head>
 <body>
     <header>Esgela Application Office</header>
-    <form >
+    <form method="POST" enctype="multipart/form-data" data-netlify="true">
         <input type="text" name="name" id="name" placeholder="Enter your name"><br>
         <input type="text" name="text" id="text" placeholder="Enter your message"><br>
         <input type="file" name="file" id="file" placeholder="Upload your file"><br>
+        <div>
+            <select name="Courses" id="courses">
+                <option value="Maths">MATH</option>
+                <option value="Physics">PHYS</option>
+                <option value="Life Sciences">LS</option>
+                <option value="Eng">English</option>
+            </select>
+        </div><br>
+        <div>
+            <select name="Courses" id="courses">
+                <option value="Maths">MATH</option>
+                <option value="Physics">PHYS</option>
+                <option value="Life Sciences">LS</option>
+                <option value="Eng">English</option>
+            </select>
+        </div><br>
         <button>Send</button>
     </form>
 </body>
